@@ -3,7 +3,6 @@ controllerName="neoris.cursos.fiori.test.project1.controller.View1" displayBlock
     <Page id="page" title="{i18n>title}">
         <content>
             <Label text="{i18n>pais}" width="30%" id="label0" class="LetraGrande"/>
-            <core:Fragment fragmentName='my.own.Fragment' type='JS' />
         </content>
     </Page>
 </mvc:View>
