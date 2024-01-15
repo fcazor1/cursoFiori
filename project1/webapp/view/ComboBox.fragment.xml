@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns:core='sap.ui.core'>
+	<ComboBox xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" id="box0" change=".onPress" selectedKey="{Antecedentes>pais}"
+		items="{path: 'Paises>/', sorter: {path: 'texto'}}">
+		<core:Item xmlns:core="sap.ui.core" key="{Paises>key}" text="{Paises>texto}" id="item0"/>
+	</ComboBox>
+</core:FragmentDefinition>
